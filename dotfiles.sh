@@ -3,6 +3,7 @@
 FILES=(
     .tmux.conf
     .vimrc
+    .config/i3/config
     )
 
 function run_diff_all {
