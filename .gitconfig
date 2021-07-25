@@ -1,0 +1,6 @@
+[user]
+	name = Michele Lindroos
+	email = michele.lindroos@omoroi.fi
+[core]
+	editor = vim
+	excludesfile = /home/keele/.gitignore

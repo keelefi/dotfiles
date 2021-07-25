@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 FILES=(
+    .gitconfig
     .gitignore
     .tmux.conf
     .vimrc
