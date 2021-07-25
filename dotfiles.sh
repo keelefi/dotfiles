@@ -3,6 +3,7 @@
 FILES=(
     .gitconfig
     .gitignore
+    .gtkrc-2.0
     .tmux.conf
     .vimrc
     .config/i3/config
