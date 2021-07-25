@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
 
 FILES=(
+    .config/gtk-3.0/settings.ini
+    .config/i3/config
+    .config/i3status/config
     .gitconfig
     .gitignore
     .gtkrc-2.0
     .tmux.conf
     .vimrc
-    .config/i3/config
-    .config/i3status/config
-    .config/gtk-3.0/settings.ini
     )
 
 function run_diff_all {
