@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 FILES=(
+    .gitignore
     .tmux.conf
     .vimrc
     .config/i3/config
