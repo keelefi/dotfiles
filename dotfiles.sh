@@ -5,6 +5,7 @@ FILES=(
     .vimrc
     .config/i3/config
     .config/i3status/config
+    .config/gtk-3.0/settings.ini
     )
 
 function run_diff_all {
