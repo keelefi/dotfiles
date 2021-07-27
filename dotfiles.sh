@@ -24,8 +24,14 @@ function run_diff {
     else
         file_source=${file}
         file_destination=${HOME}/${file}
-        echo "Showing diff between ${file_source} and ${file_destination}"
-        diff -u "${file_source}" "${file_destination}"
+        if [ -f "${file_destination}" ]; then
+            echo "Showing diff between ${file_source} and ${file_destination}"
+            echo
+            diff -u "${file_destination}" "${file_source}"
+            echo
+        else
+            echo "Destination ${file_destination} does not exist."
+        fi
     fi
 }
 
