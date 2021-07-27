@@ -7,6 +7,7 @@ FILES=(
     .gitconfig
     .gitignore
     .gtkrc-2.0
+    .mozilla/firefox/profile.default/chrome/userChrome.css
     .tmux.conf
     .vimrc
     )
