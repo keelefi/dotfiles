@@ -181,6 +181,9 @@ bar {
     status_command i3status
 }
 
+# disable screen powersaving
+exec --no-startup-id xset s off -dpms
+
 workspace 1 output DisplayPort-1
 workspace 2 output DisplayPort-1
 workspace 3 output DisplayPort-1
