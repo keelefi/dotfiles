@@ -70,16 +70,17 @@ function run_install {
 }
 
 runcommand=$1
-file=$2
 
 case "${runcommand}" in
     diff)
+        file=$2
         run_diff "${file}"
         ;;
     list)
         list_diffs
         ;;
     install)
+        file=$2
         run_install "${file}"
         ;;
 esac
