@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+set -e
+set -o pipefail
+set -u
+
 FILES=(
     .config/gtk-3.0/settings.ini
     .config/i3/config
