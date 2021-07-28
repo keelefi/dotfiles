@@ -13,3 +13,6 @@ set hls             " set highlights
 
 syntax on           " enable syntax coloring in case it was disabled
 colorscheme desert  " set colorscheme to desert 
+
+" Git commit messages, set textwidth to 72
+autocmd FileType gitcommit set textwidth=72
