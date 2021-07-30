@@ -5,6 +5,7 @@ set -o pipefail
 set -u
 
 FILES=(
+    .bashrc
     .config/gtk-3.0/settings.ini
     .config/i3/config
     .config/i3status/config
