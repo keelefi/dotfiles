@@ -1,0 +1,7 @@
+# clone
+
+    git clone --separate-git-dir=$HOME/.dotfiles git@github.com:keelefi/dotfiles.git /tmp/dotfiles
+
+# usage
+
+Replace `git` with `dotfiles`. `dotfiles` is the alias created in `.bashrc`.
