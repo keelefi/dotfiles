@@ -117,3 +117,6 @@ if ! shopt -oq posix; then
 fi
 
 PATH=$PATH:/home/keele/bin
+
+# Alias for dotfiles
+alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
