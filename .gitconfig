@@ -3,4 +3,4 @@
 	email = michele.lindroos@omoroi.fi
 [core]
 	editor = vim
-	excludesfile = /home/keele/.gitignore
+	excludesfile = /home/michele/.gitignore
