@@ -204,3 +204,6 @@ exec --no-startup-id xset r rate 200 60
 
 # set background
 exec --no-startup-id nitrogen --restore
+
+# keybinding for lock screen
+bindsym $mod+Control+l exec i3lock -i Pictures/OMOROI_LOGO3_ultrahd_4k_lockscreen.png
