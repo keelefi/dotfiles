@@ -116,7 +116,10 @@ if ! shopt -oq posix; then
   fi
 fi
 
-PATH=$PATH:/home/keele/bin
+PATH=$PATH:/home/michele/bin
 
 # Alias for dotfiles
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+
+# bash completion for bazel
+source /home/michele/.bazel/bin/bazel-complete.bash
